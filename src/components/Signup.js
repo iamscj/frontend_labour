@@ -62,7 +62,7 @@ export default function JoinOurTeam() {
     let res;
     try {
       res = await axios.post(
-        "https://server-labour.vercel.app/signup",
+        "http://localhost:8000/signup",
         signup
       );
       if (res.data.msg === "Username Already Taken") {

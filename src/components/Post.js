@@ -28,7 +28,7 @@ import MapComponent from "./Search_map";
 // import { useEffect } from "react";
 
 const inputss = {
-  username: "shreyasa",
+  username: "",
   phonenumber: "1234567854",
   field: "",
   max_salary: "",
